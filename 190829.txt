@@ -1,0 +1,47 @@
+git bash
+python.org
+Download All Python 3.7.4
+
+[git bash]
+pip install requests
+python -m pip install --upgrade pip
+
+mkdir codes
+레파지토리 생성
+Setting 에서 share 이메일 보냄
+글 올린 후 add commit push
+(부하) clone 글 수정 add commit push
+pull 글 수정 add commit push
+
+레파지토리 생성
+git init(시작)
+git add README.md
+git commit -m "first commit"
+git remote add origin 주소
+git push -u origin master
+
+
+git clone 주소
+git pull origin master
+code . 해서 글 수정
+git add README.md
+git commit -m "수정완료"
+git push origin master
+git pull origin master
+...반복
+
+
+fork 하고 원작자에게 pull requet 함
+
+git branch 이름
+git checkout 브랜치이름
+두개 합침 git checkout -b member
+
+git remote add root(원격저장소 이름 default는 origin) 주소
+git push (원격저장소) (브랜치이름 default main은 master)
+
+1. Git 학습내용 마크다운 정리
+2. Git & Github 추가내용 정리
+- 생활코딩 등 외부 소스 활용
+3. Git Branchin 실습
+- https://learngitbranching.js.org/?locale=ko
